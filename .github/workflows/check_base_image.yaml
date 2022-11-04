@@ -14,7 +14,7 @@ jobs:
 
       - name: Check if update available
         id: check
-        uses: azuresrv/docker-image-update-checker@main
+        uses: lucacome/docker-image-update-checker@v1
         with:
           base-image: library/alpine:3.16
           image: ghcr.io/hoellenwesen/docker-internet-speedtest:latest
